@@ -3,7 +3,7 @@
 
 ### Descripción
 
-		Para este reto se tenía que automatizar la búsqueda de 5 productos mediante el buscador dela 
+		Para este reto se tenía que automatizar la búsqueda de 5 productos mediante el buscador de la 
 		página "adidas" y verificar que  efectivamente fuera el producto buscado.
 		
 ## Se abre la pagina "Adidas"	
