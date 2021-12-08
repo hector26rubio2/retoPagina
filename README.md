@@ -22,7 +22,7 @@
 <tr>
   <th>Dependencias</th>
   <td>
-     * <a> implementation 'net.serenity-bdd:serenity-junit:2.0.80'</a>
+     * <a> implementation 'net.serenity-bdd:serenity-junit:2.0.80'</a><br>
 	 *<a> implementation 'net.serenity-bdd:serenity-cucumber:1.9.45'</a><br>
 	 *<a> implementation 'net.serenity-bdd:serenity-junit:2.0.80'</a><br>
 	 *<a> implementation 'org.slf4j:slf4j-simple:1.7.7'</a><br>
