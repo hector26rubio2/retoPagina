@@ -4,11 +4,16 @@ para este reto se tenia que automatizar la busqueda de 5 productos por el buscad
 
 ### Dependencias
 como hemos trabajado en los proyectos de prueba
-		+ implementation 'net.serenity-bdd:serenity-junit:2.0.80'
-		+ implementation 'net.serenity-bdd:serenity-cucumber:1.9.45'
+		+ implementation 'net.serenity-bdd:serenity-junit:2.0.80'.
+		
+		+ implementation 'net.serenity-bdd:serenity-cucumber:1.9.45'.
+		
 		+ implementation 'net.serenity-bdd:serenity-core:2.0.80'
-		 +implementation 'org.slf4j:slf4j-simple:1.7.7'
-		 +implementation group: 'org.apache.poi', name: 'poi', version: '3.17'
+		
+		 +implementation 'org.slf4j:slf4j-simple:1.7.7'.
+		 
+		 +implementation group: 'org.apache.poi', name: 'poi', version: '3.17'.
+		 
 		 +implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'
 
 ###Estructura
