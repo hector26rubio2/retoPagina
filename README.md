@@ -52,25 +52,36 @@ como hemos trabajado en los proyectos de prueba
 
 		Feature: HU-001 Buscador Adidas
 		Yo como usuario de Adidas Quiero buscar un producto en la plataforma Para ver el nombre del producto en pantalla.
-			Scenario: Buscador producto
-			Given que me encuentro en la pagina de Adidas
-			When  busque los productos en el archivo 'src\test\java\dataExcel\datos.xlsx' en pantalla
+		
+			Scenario: Buscador producto.
+			
+			Given que me encuentro en la pagina de Adidas.
+			
+			When  busque los productos en el archivo 'src\test\java\dataExcel\datos.xlsx' en pantalla.
+			
 			Then podre ver en pantalla.
 			
 	* steps: AdidasBuscadorSteps.java
 	
 	 	 en esta clase tengo:
-	 	 * buscarElementoEnAdidas(String producto):
+		 
+	 	 	* buscarElementoEnAdidas(String producto):
+	 	 	
 	  		ingresa el nombre del producto en el buscador de la pagina  y lo busca.
-		  * validarElementoEnPantalla(String producto) :
-	 		valida que el producto en pantalla sea el mismo que sea el mismo de la prueba dle excel.
+			
+	 	 	* validarElementoEnPantalla(String producto) :
+	 	 
+		 	valida que el producto en pantalla sea el mismo que sea el mismo de la prueba dle excel.
+			
 	+ pages
 
-		* AdidasHome.java:
+			* AdidasHome.java:
+		
 	 		 Contiene los Xpath necesarios de la vista principal de la pagina para realizar las pruebas en este caso el 
 			 imput "//input[@name='q' and @placeholder='Buscar']"
 
-		* AdidasProducto.java:
+			* AdidasProducto.java:
+		
 	 		 Contiene los Xpath necesarios de la vista del procducto de la pagina para realizar las pruebas en este
 			 caso un span que contiene el nombre el producto.
 			 "//div[@class ='product-description___2cJO2']/h1[@data-auto-id='product-title' 
