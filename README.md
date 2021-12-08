@@ -28,7 +28,7 @@
 	 *<a> implementation 'org.slf4j:slf4j-simple:1.7.7'</a><br>
 	 *<a> implementation group: 'org.apache.poi', name: 'poi', version: '3.17'</a><br>
 	 *<a> implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'</a><br>
-	 *<a> ChromeDirver</a>
+	 *<a> chromedriver.exe</a>
     </td>
 <tr>
 <tr>
