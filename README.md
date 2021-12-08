@@ -59,10 +59,10 @@ como hemos trabajado en los proyectos de prueba
 			
 	* steps: AdidasBuscadorSteps.java
 	
-	  en esta clase tengo:
-	  * buscarElementoEnAdidas(String producto):
+	 	 en esta clase tengo:
+	 	 * buscarElementoEnAdidas(String producto):
 	  		ingresa el nombre del producto en el buscador de la pagina  y lo busca.
-	  *validarElementoEnPantalla(String producto) :
+		  * validarElementoEnPantalla(String producto) :
 	 		valida que el producto en pantalla sea el mismo que sea el mismo de la prueba dle excel.
 	+ pages
 
