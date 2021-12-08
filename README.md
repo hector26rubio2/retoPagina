@@ -27,15 +27,15 @@ como hemos trabajado en los proyectos de prueba
 	+ stepsDefinitions: AdidasBuscadorDefinitions.java.
 
 			En el when creo una variable local de tipo   ArrayList<Map<String, String>> listaProductos; 
-			Donde estaran los datos de prueba luego los recorro mediante un for-ech busco el producto en el atributo de clase adidasBuscadorSteps, 
-			con el metodo  buscarElementoEnAdidas.
+			Donde estaran los datos de prueba luego los recorro mediante un for-ech busco el producto en el atributo de clase
+			adidasBuscadorSteps, con el metodo  buscarElementoEnAdidas.
 			Luego de buscarlo  con el mismo atributo con el metodo  validarElementoEnPantalla que verificara si es o no el producto.
 
 	+ readExcel: ReadExcelFile.java
 
 			 El paquete lo utilizo para estructurar el codigo.
-			 La clase sirve para poder cargar el excel con el metodo "leerDatosDeHojaDeExcel", el cual como parametros recibe la ubicación del archivo 
-			 y la hoja que se quiere leer y extrar los datos.
+			 La clase sirve para poder cargar el excel con el metodo "leerDatosDeHojaDeExcel", el cual como parametros recibe la ubicación
+			 del archivo y la hoja que se quiere leer y extrar los datos.
 			 Ademas es estatico con esto no se necesita instanciar la clase para poder utilizarlo.
 
 	+ dataExcel:  datos.xlsx
@@ -58,20 +58,21 @@ como hemos trabajado en los proyectos de prueba
 			Then podre ver en pantalla.
 			
 	* steps: AdidasBuscadorSteps.java
+	
 	  en esta clase tengo:
 	  * buscarElementoEnAdidas(String producto):
 	  		ingresa el nombre del producto en el buscador de la pagina  y lo busca.
-	 * validarElementoEnPantalla(String producto) :
+	  *validarElementoEnPantalla(String producto) :
 	 		valida que el producto en pantalla sea el mismo que sea el mismo de la prueba dle excel.
 	+ pages
 
 		* AdidasHome.java:
-	 		 Contiene los Xpath necesarios de la vista principal de la pagina para realizar las pruebas en este caso el imput
-			 "//input[@name='q' and @placeholder='Buscar']"
+	 		 Contiene los Xpath necesarios de la vista principal de la pagina para realizar las pruebas en este caso el 
+			 imput "//input[@name='q' and @placeholder='Buscar']"
 
 		* AdidasProducto.java:
-	 		 Contiene los Xpath necesarios de la vista del procducto de la pagina para realizar las pruebas en este caso un span que
-			 contiene el nombre el producto.
+	 		 Contiene los Xpath necesarios de la vista del procducto de la pagina para realizar las pruebas en este
+			 caso un span que contiene el nombre el producto.
 			 "//div[@class ='product-description___2cJO2']/h1[@data-auto-id='product-title' 
 			 and @class='gl-heading gl-heading--regular gl-heading--italic name___1EbZs']//span[contains(text(), '"+producto+"')]"
 
